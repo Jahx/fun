@@ -1,0 +1,28 @@
+### Create
+POST http://localhost:8282/create
+
+{
+    "key": "test",
+    "value": "test1"
+}
+
+
+### Get
+GET http://localhost:8282/read/test
+
+### Update
+PUT http://localhost:8282/update
+
+{
+    "key": "test",
+    "value": "test2"
+}
+
+### Get 2
+GET http://localhost:8282/read/test
+
+### Delete
+DELETE http://localhost:8282/delete/test
+
+### Get 3
+GET http://localhost:8282/read/test
