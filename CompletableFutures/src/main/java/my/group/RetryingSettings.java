@@ -15,5 +15,5 @@ public class RetryingSettings {
     @Builder.Default
     private Duration timeout = Duration.ofSeconds(5);
     @Builder.Default
-    private Duration delayBetweenRetry = Duration.ofMillis(200);
+    private Duration delayBetweenRetry = Duration.ofSeconds(2);
 }
